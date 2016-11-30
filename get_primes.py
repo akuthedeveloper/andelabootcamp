@@ -1,12 +1,10 @@
 def isPrime(num):
  """Checks num for primality. Returns bool."""
     if num == 2:
+return True
+     elif num < 2 or not num % 2: # even numbers > 2 not prime
 
-         return True
-
-        elif num < 2 or not num % 2: # even numbers > 2 not prime
-
-            return False
+        return False
 
      
 
